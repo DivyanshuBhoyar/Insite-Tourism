@@ -26,13 +26,17 @@ body{
 
 .page input[type= email], .page input[type=password]{
     border: none;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: none;
     height: 30px;
-    font-size: 13px;
+    font-size: 15px;
     opacity: 1;
-    color: #ccc;
+    color: black;
+}
+
+::placeholder{
+    color: black;
 }
 
 .page input[type=button]{
