@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/773931583044452384/774106256926441472/SigninPageBackground2.jpg);
+    background-size:cover;
+    font-family: cursive;
+}
+
+.page{
+    height: 400px;
+    width: 420px;
+    color: #000;
+    left: 50%;
+    top: 50%;
+    padding: 60px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 20px 20px 50px #000;
+}
+
+.page input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.page input[type= email], .page input[type=password]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 13px;
+    opacity: 1;
+    color: #ccc;
+}
+
+.page input[type=button]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:#568abf;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+    border-radius: 3px;
+    font-family:cursive;
+}
+
+.page input[type=button]:hover{
+    background: #8fb1d4;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.page a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+}
+
+.page a:hover{
+    color: #568abf;
+    opacity: 1;
+    
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: cursive;
+}
+
+.bottom-text{
+    color: #fff;
+}
+
+.bottom-text input{
+    width: 10%;
+    float: left;
+}
+
+.bottom-text a{
+    float: right;
+}
+
+.social{
+    margin-top: 12%;
+    text-align: center;
+}
+
+.social a{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 1px 5px; 
+   
+}
+
+
