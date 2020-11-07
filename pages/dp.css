@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  padding: 0.3% 0;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.05rem;
+}
+.hero {
+  width: 100vw;
+  background-image: url(../assets/Rectangle\ 25.png);
+  height: 87vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.search {
+  margin-top: 0.7%;
+}
+.hero-txt {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 150px;
+  letter-spacing: 0.585em;
+  margin-left: 75px;
+  color: #ffffff;
+}
+.hero-bottom {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  position: absolute;
+  bottom: 7%;
+  letter-spacing: 0.012em;
+}
+.input-group {
+  border-radius: 12px;
+}
+.inpt {
+  border: 1.5px solid #142d4f;
+}
+.btn {
+  border: none;
+  margin-left: 8px;
+}
+.sbtn {
+  border-radius: 12px;
+  color: white;
+  background-color: #142d4f;
+}
+.deck {
+  margin: 3.5%;
+}
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: smaller;
+}
+.card-title {
+  font-family: "Raleway";
+  font-weight: 600;
+}
+.nav {
+  color: #041117;
+}
+.cbtn {
+  border: 1.5px solid #142d4f;
+  color: #041117;
+}
